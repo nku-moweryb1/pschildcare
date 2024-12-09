@@ -1,0 +1,12 @@
+Precious Sight Childcare Redesign
+
+Brian Mowery
+Built the structure of the site 
+Coded html for Index, About Us, Services, Owners, and Sign Up/Thank You pages
+Wrote the JavaScripts used by the dropdown menu for Locations, the thumbnail gallery on the main page and the SignUp form
+
+
+Hope Hampton
+Coded html for the 3 location pages, Events, and Contact Us pages
+Designed most of the CSS for the website
+Quality checked the site to make sure all links worked appropriately and was a smooth user experience

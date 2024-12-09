@@ -630,6 +630,19 @@ nav {
     margin: 0 auto;
 }
 
+.text-image-container {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+
+.text-image-container img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px; /* rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+}
+
 /* Footer */
 footer {
     background: #f8f9fa;
@@ -645,4 +658,28 @@ footer p {
 footer a {
     color: #4CAF50;
     text-decoration: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    nav ul li {
+        margin-bottom: 15px;
+    }
+
+    main {
+        padding: 30px 15px;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    section h2 {
+        font-size: 1.8rem;
+    }
 }
